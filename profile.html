@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TICK-TAX</title>
+
+        <link rel="stylesheet" href="../static/stylesdet.css">
+        <link rel="stylesheet" href="../static/stylesbody.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        h2{text-align: center;}
+        </style>
+    </head>
+    <body>
+      <div class="logo">
+        <img src = "logo1.png">
+      </div>
+
+      <div class="topnav">
+       <a href="home.html">Home</a>
+       <a class="active" href="profile.html">Profile</a>
+       <a href="finances.html">Finances</a>
+       <a href="documents.html">Documents</a>
+       <a href="calculator.html">Calculator</a>
+       <a href="payments.html">Payments</a>
+       <a href="dashboard.html">Dashboard</a>
+       <a href="calendar.html">Calendar</a>
+      </div>
+
+
+
+
+
+        <div class='signup-container'>
+            
+            <div class='right-container'>
+              <header>
+                <h2>PERSONAL DETAILS</h2>
+                <form action="profile.html" method="post">
+                <div class='set'>
+                    <div class='pets-name'>
+                      <label for='pets-name'>Name</label>
+                      <input id='pets-name' placeholder="Full Name" type='text'>
+                    </div>
+                    <div class='pets-photo'>
+                      <button id='pets-upload'>
+                        
+                        <i class="fa fa-camera" style="font-size:24px"></i>
+                      </button>
+                      <label for='pets-upload'>Upload a photo</label>
+                    </div>
+                  </div>
+
+                <div class='set'>
+                  <div class='pets-breed'>
+                    <label for='pets-breed'>Email id</label>
+                    <input id='pets-breed' placeholder="email id" type='text'>
+                  </div>
+                  <div class='pets-birthday'>
+                    <label for='pets-birthday'>Date of Birth</label>
+                    <input id='pets-birthday' placeholder='DD/MM/YYYY' type='text'>
+                  </div>
+                </div>
+                <div class='set'>
+                  <div class='pets-breed'>
+                    <label for='pets-breed'>Contact Number</label>
+                    <input id='pets-breed' placeholder="Contact Number" type='text'>
+                  </div>
+                  <div class='pets-gender'>
+                    <label for='pet-gender-female'>Gender</label>
+                    <div class='radio-container'>
+                      <input checked='' id='pet-gender-female' name='pet-gender' type='radio' value='female'>
+                      <label for='pet-gender-female'>Female</label>
+                      <input id='pet-gender-male' name='pet-gender' type='radio' value='male'>
+                      <label for='pet-gender-male'>Male</label>
+                    </div>
+
+                  </div>
+                </div>
+              </form>
+              </header>
+              <footer>
+                <div class='set'>
+                 
+                  <button id='next'>
+                    <a href="profile.html" style="color: #FFFFFF">Update</a>
+                  </button>
+                  <button id='next'>
+                    <a href="profile2.html" style="color: #FFFFFF">Next</a>
+                  </button>
+                </div>
+              </footer>
+            </div>
+          </div>
+
+    </body>
+</html>

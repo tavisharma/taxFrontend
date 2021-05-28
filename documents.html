@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TICK-TAX</title>
+
+        <link rel="stylesheet" href="../static/stylesdet.css">
+        <link rel="stylesheet" href="../static/stylesbody.css">
+        <style>
+        h2{text-align: center;}
+
+        </style>
+    </head>
+    <body>
+
+      <div class="logo">
+        <img src = "logo1.png">
+      </div>
+
+      <div class="topnav">
+       <a href="home.html">Home</a>
+       <a href="profile.html">Profile</a>
+       <a href="finances.html">Finances</a>
+       <a class="active" href="documents.html">Documents</a>
+       <a href="payments.html">Payments</a>
+       <a href="dashboard.html">Dashboard</a>
+       <a href="calendar.html">Calendar</a>
+      </div>
+
+
+            <div class='right-container'>
+              <header>
+                <h2>DOCUMENT VERIFICATION</h2>
+                <form action="documents.html" method="post">
+                <div class='set'>
+                    <div class='pets-name'>
+                      <label for='pets-name'style="font-size:16px">Occupation</label>
+                      <label for='pets-name' style="font-size: 10px">(upload your job ID)</label>
+                      
+                      <form>
+                         <input type="file" id="myFile" name="filename">
+                      </form>
+                    </div>
+                    <div class='pets-breed'>
+                      
+                      <label for='pets-breed'style="font-size:16px">Annual Income</label>
+                      <label for='pets-breed' style="font-size: 10px">(upload proof of income)</label>
+                      
+                      <form>
+                         <input type="file" id="myFile" name="filename">
+                      </form>
+                    </div>
+                  </div>
+
+                <div class='set'>
+                  
+                  <div class='pets-birthday'>
+                    
+                    <label for='pets-birthday'style="font-size:16px">Other Assets</label>
+                    <label for='pets-birthday' style="font-size: 10px">(upload proof of assets worth)</label>
+                    
+                    <form>
+                       <input type="file" id="myFile" name="filename">
+                    </form>
+                  </div>
+                </div>
+              </form>
+              </header>
+              <footer>
+                <div class='iset'>
+                  
+                  <button id='next'>Verify</button>
+                </div>
+              </footer>
+            </div>
+          </div>
+
+    </body>
+</html>
